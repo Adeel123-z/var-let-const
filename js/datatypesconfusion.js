@@ -10,3 +10,8 @@ let valueInNumbers = Number(score1);
 console.log(typeof valueInNumbers);
 console.log(valueInNumbers);
 //hum es sai ya understand kar sakta hai ka number ko hum number ma convert kar sakta hain
+//kia hum number ko boolean mai convert kar sakta hain 
+let isLoggedIn = 1;
+console.log(isLoggedIn);
+let booleanIsLoggedIn = Boolean(isLoggedIn);
+console.log(booleanIsLoggedIn);
