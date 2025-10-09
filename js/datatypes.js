@@ -8,5 +8,5 @@ undefined //kio value he nahi hai
  console.log(typeof "Adeel") //string
  console.log(typeof age) //number
  console.log(typeof null) //object and some people say thta it ia language error
- console.log(name,  age)
+ console.log(name,  age)    
  //n are used for new line in a string  
