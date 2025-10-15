@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="color: black;">
+    <ul class="Language">
+        <li>Javascript</li>
+    </ul>
+    <!-- <div class="parent">
+        <div class="day">Monday</div>
+         <div class="day">Tuesday</div>
+          <div class="day">Wednesday</div>
+           <div class="day">Thursday</div>
+    </div> -->
+</body>
+<script>
+//    const parent= document.querySelector('.parent')
+//    console.log(parent.children);
+//    console.log(child.children);
+//    console.log(child.children[i].innerHTML);
+//    fori=0,i<child.children,i++
+//    {
+//     console.log(child.children(i).innerText);
+//    }
+// parent.children[1].style.color='orange'
+// Create a new elemnet in js
+ // Step 1: Create a new element
+    // const newDiv = document.createElement('div');
+
+    // // Step 2: Add text or content
+    // newDiv.innerText = 'Wednesday';  // or newDiv.textContent = 'Wednesday';
+
+    // // Step 3: Add a class name (optional)
+    // newDiv.className = 'day';
+
+    // // Step 4: Append it to the parent
+    // const parent = document.querySelector('.parent');
+    // parent.appendChild(newDiv);  // Adds it to the end of .parent
+    // Create Element and Edit the Element
+      function addLanguage(langName){
+        const li= document.createElement('li');
+         li.innerHTML = `${langName}`;
+        document.querySelector('.Language').appendChild(li);
+
+      }
+      addLanguage('Python');
+      addLanguage('C++');
+      function addoptimize(langName){
+       const li= document.createElement('li');
+        li.appendChild(document.createTextNode(langName));
+       document.querySelector('.Language').appendChild(li);
+      }
+      addLanguage('Java');
+      addLanguage('Ruby');
+</script>
+</html>
