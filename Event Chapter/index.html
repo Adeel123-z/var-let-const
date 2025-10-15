@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Event</title>
+    <Style>
+        body{
+            background-color: grey;
+            color: darkblue;
+        }
+    </Style>
+</head>
+<body>
+    <h2>Some images </h2>
+    <div>
+        <ul>
+            <li><img id="Winter" width="100px" height="100px" src="https://images.pexels.com/photos/34229771/pexels-photo-34229771.jpeg" alt="Winter images"></li>
+            <li><img id="Animal" width="100px" src="https://images.pexels.com/photos/792381/pexels-photo-792381.jpeg" alt="Tiger Picture"></li>
+            <li><img id="owl" width="100px"  src="https://images.pexels.com/photos/206676/pexels-photo-206676.jpeg" alt=""></li>
+            <li><img id="Picture" width="100px" src="https://images.pexels.com/photos/33007051/pexels-photo-33007051.jpeg" alt=""></li>
+        </ul>
+    </div>
+    <script>
+    //   document.getElementById(`owl`).onclick = function(){
+    //     alert("Owl Clicked");
+    //   }
+        document.getElementById(`owl`).addEventListener(`click`,function(){
+            alert("owl Double Clicked");
+        },false)
+          </script>
+</body>
+</html>
